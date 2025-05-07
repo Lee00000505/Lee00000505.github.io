@@ -7,7 +7,7 @@
 hero:
   image: "assets/img/profile2.png"
   image_alt: "Zoé Miller"
-  title: "<b>Zoé</b> Miller"
+  title: "Lee"
   before_title: "Hello, <b>my name is</b>"
   after_title: "I am <strong>Web Developer</strong>"
   description: "From France, Paris. I have rich experience in web design, also I am good at wordpress. I love to talk with you about our unique."
