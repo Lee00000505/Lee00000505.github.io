@@ -5,7 +5,7 @@
 
 ### Hero [ hero-image ]
 hero:
-  image: "assets/img/profile2.png"
+  image: "assets/img/티벳여우.webp"
   image_alt: "lee"
   title: "<b>l</b> ee"
   before_title: "Hello, <b>my name is</b>"
