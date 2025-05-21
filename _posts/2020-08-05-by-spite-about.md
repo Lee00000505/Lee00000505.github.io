@@ -6,6 +6,7 @@ category: development
 image: assets/img/t.webp
 author: Lee
 tags: rock
+comments: true
 ---
 
 lee의 기술 블로그에 오신걸 환영합니다.
