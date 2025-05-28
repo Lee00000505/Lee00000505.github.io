@@ -26,41 +26,40 @@ hero:
       value: "Completed <strong>Projects</strong>"
 
 ### Services [ services ]
-services:
-  title: "What I Do"
-  subtitle: "my <b>Services</b>"
-  bg_title: "Services"
+##title: "What I Do"
+  #subtitle: "my <b>Services</b>"
+  #bg_title: "Services"
 
-  items:
-    - title: "Web Design &amp; Logo"
-      subtitle: "Web Development"
-      text: "Web designers craft the overall vision &amp; plan for a website layout. Professional logo development: Business, Company, or Personal."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+  # items:
+  #   - #title: "Web Design &amp; Logo"
+  #     ##subtitle: "Web Development"
+  #     text: "Web designers craft the overall vision &amp; plan for a website layout. Professional logo development: Business, Company, or Personal."
+  #     button_label: "See Pricing"
+  #     button_link: "#pricing-section"
 
-    - title: "iOS &amp; Android"
-      subtitle: "Apps Development"
-      text: "Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+  #   - title: "iOS &amp; Android"
+  #     subtitle: "Apps Development"
+  #     text: "Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing."
+  #     button_label: "See Pricing"
+  #     button_link: "#pricing-section"
 
-    - title: "Unity &amp; Unreal Engine"
-      subtitle: "Game Development"
-      text: "Creating games &amp; describes the design, development and release of a game. Developing unique mobile android and ios games."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+  #   - title: "Unity &amp; Unreal Engine"
+  #     subtitle: "Game Development"
+  #     text: "Creating games &amp; describes the design, development and release of a game. Developing unique mobile android and ios games."
+  #     button_label: "See Pricing"
+  #     button_link: "#pricing-section"
 
-    - title: "Google Ads"
-      subtitle: "Advertising"
-      text: "Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+  #   - title: "Google Ads"
+  #     subtitle: "Advertising"
+  #     text: "Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program."
+  #     button_label: "See Pricing"
+  #     button_link: "#pricing-section"
 
-    - title: "Sound Track"
-      subtitle: "Music Writing"
-      text: "Music copying, writing, creating, transcription and composition services."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+  #   - title: "Sound Track"
+  #     subtitle: "Music Writing"
+  #     text: "Music copying, writing, creating, transcription and composition services."
+  #     button_label: "See Pricing"
+  #     button_link: "#pricing-section"
 
 ### Skills [ skills ]
 skills:
