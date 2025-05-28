@@ -15,8 +15,10 @@ preloader:
 ### Header
 header:
   logo:
-    image: "assets/img/logo2.png"
-    alt: "Zoé Miller"
+    image: "/assets/images/lee_log.png"
+    alt: "Lee Signature Logo"
+    width: 110
+    height: 110
 
 ### Social
 social:
