@@ -64,7 +64,7 @@ hero:
 ### Skills [ skills ]
 skills:
   title: "PROJECT TECHNOLOGIES"
-  subtitle: "my <b>Skills</b>"
+  subtitle: "<b>application technology</b>"
   bg_title: "Skills"
 
   column1:
