@@ -21,18 +21,18 @@ header:
     height: 110
 
 ### Social
-social:
-  - title: "Twitter"
-    icon: "fab fa-twitter"
-    url: "http://twitter.com"
+# social:
+#   - title: "Twitter"
+#     icon: "fab fa-twitter"
+#     url: "http://twitter.com"
 
-  - title: "Dribbble"
-    icon: "fab fa-dribbble"
-    url: "http://dribbble.com"
+#   - title: "Dribbble"
+#     icon: "fab fa-dribbble"
+#     url: "http://dribbble.com"
 
-  - title: "Behance"
-    icon: "fab fa-behance"
-    url: "http://behance.com"
+#   - title: "Behance"
+#     icon: "fab fa-behance"
+#     url: "http://behance.com"
 
 ### Footer
 footer:
