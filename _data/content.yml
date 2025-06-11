@@ -18,12 +18,12 @@ hero:
     label: "My Skills"
     link: "#skills-section"
   bg_title: "Web Developer"
-  info:
-    - num: "12 <strong>+</strong>"
-      value: "Years of <strong>Experience</strong>"
+  # info:
+  #   - num: "12 <strong>+</strong>"
+  #     value: "Years of <strong>Experience</strong>"
 
-    - num: "330"
-      value: "Completed <strong>Projects</strong>"
+  #   - num: "330"
+  #     value: "Completed <strong>Projects</strong>"
 
 ### Services [ services ]
 ##title: "What I Do"
