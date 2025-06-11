@@ -15,7 +15,7 @@ hero:
     label: "Download CV"
     link: "https://drive.google.com/"
   button2:
-    label: "My Skills"
+    label: "PROJECT TECHNOLOGIES"
     link: "#skills-section"
   bg_title: "Web Developer"
   # info:
