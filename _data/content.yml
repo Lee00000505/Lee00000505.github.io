@@ -240,7 +240,7 @@ skills:
 #items generates from dir /_posts/*
 blog:
   title: "Latest Blog"
-  subtitle: "my <b>Articles and Advice</b>"
+  subtitle: "my <b>blog</b>"
   bg_title: "Blog"
   button:
     label: "View Blog"
