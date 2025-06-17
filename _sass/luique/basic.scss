@@ -3271,125 +3271,125 @@ hr {
 * Section Pricing
 **/
 
-.pricing-items {
-	position: relative;
-	z-index: 2;
-	margin: 0 -20px;
-}
+// .pricing-items {
+// 	position: relative;
+// 	z-index: 2;
+// 	margin: 0 -20px;
+// }
 
-.pricing-col {
-	position: relative;
-	padding: 0 20px;
-	margin-bottom: 40px;
-}
+// .pricing-col {
+// 	position: relative;
+// 	padding: 0 20px;
+// 	margin-bottom: 40px;
+// }
 
-.pricing-item {
-	position: relative;
-	overflow: hidden;
-	padding: 30px 35px;
-	background: #fff;
-	border-radius: 18px;
-	border: 2px solid #fff;
-	transition: all 0.6s cubic-bezier(0.3, 0, 0.3, 1);
-	-webkit-transition: all 0.6s cubic-bezier(0.3, 0, 0.3, 1);
-}
+// .pricing-item {
+// 	position: relative;
+// 	overflow: hidden;
+// 	padding: 30px 35px;
+// 	background: #fff;
+// 	border-radius: 18px;
+// 	border: 2px solid #fff;
+// 	transition: all 0.6s cubic-bezier(0.3, 0, 0.3, 1);
+// 	-webkit-transition: all 0.6s cubic-bezier(0.3, 0, 0.3, 1);
+// }
 
-.pricing-col.center .pricing-item {
-	border-color: #000;
-}
+// .pricing-col.center .pricing-item {
+// 	border-color: #000;
+// }
 
-.pricing-col .label {
-	display: none;
-}
+// .pricing-col .label {
+// 	display: none;
+// }
 
-.pricing-col.center .label {
-	padding: 0 15px;
-	position: absolute;
-	top: -12px;
-	right: 60px;
-  height: 26px;
-	line-height: 22px;
-	font-size: 13px;
-	text-transform: uppercase;
-	color: #fff;
-	letter-spacing: 0.05em;
-	font-weight: 700;
-  z-index: 2;
-	display: block;
-	border: 2px solid #000;
-  background-color: #29a587;
-  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.2);
-	border-radius: 26px;
-	-webkit-border-radius: 26px;
-}
+// .pricing-col.center .label {
+// 	padding: 0 15px;
+// 	position: absolute;
+// 	top: -12px;
+// 	right: 60px;
+//   height: 26px;
+// 	line-height: 22px;
+// 	font-size: 13px;
+// 	text-transform: uppercase;
+// 	color: #fff;
+// 	letter-spacing: 0.05em;
+// 	font-weight: 700;
+//   z-index: 2;
+// 	display: block;
+// 	border: 2px solid #000;
+//   background-color: #29a587;
+//   box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.2);
+// 	border-radius: 26px;
+// 	-webkit-border-radius: 26px;
+// }
 
-.pricing-item .icon {
-	margin-top: 15px;
-	font-size: 41px;
-	min-height: 50px;
-	line-height: 1;
-	color: #29a587;
-}
+// .pricing-item .icon {
+// 	margin-top: 15px;
+// 	font-size: 41px;
+// 	min-height: 50px;
+// 	line-height: 1;
+// 	color: #29a587;
+// }
 
-.pricing-item .price {
-	margin: 0 0 20px 0;
-  font-size: 30px;
-	line-height: 1;
-	font-weight: 700;
-	color: #000;
-}
+// .pricing-item .price {
+// 	margin: 0 0 20px 0;
+//   font-size: 30px;
+// 	line-height: 1;
+// 	font-weight: 700;
+// 	color: #000;
+// }
 
-.pricing-item .price b {
-	color: #29a587;
-}
+// .pricing-item .price b {
+// 	color: #29a587;
+// }
 
-.pricing-item .price em {
-	margin: 0 0 0 15px;
-	font-size: 16px;
-	font-weight: 700;
-	font-style: normal;
-}
+// .pricing-item .price em {
+// 	margin: 0 0 0 15px;
+// 	font-size: 16px;
+// 	font-weight: 700;
+// 	font-style: normal;
+// }
 
-.pricing-item .lui-text {
-	padding-bottom: 30px;
-	min-height: 145px;
-}
+// .pricing-item .lui-text {
+// 	padding-bottom: 30px;
+// 	min-height: 145px;
+// }
 
-.pricing-item .lui-text p {
-	margin: 0;
-}
+// .pricing-item .lui-text p {
+// 	margin: 0;
+// }
 
-.pricing-item .list ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
+// .pricing-item .list ul {
+// 	margin: 0;
+// 	padding: 0;
+// 	list-style: none;
+// }
 
-.pricing-item .list ul li {
-	position: relative;
-	margin: 5px 0;
-	padding: 0 0 0 30px;
-	list-style: none;
-}
+// .pricing-item .list ul li {
+// 	position: relative;
+// 	margin: 5px 0;
+// 	padding: 0 0 0 30px;
+// 	list-style: none;
+// }
 
-.pricing-item .list ul li i {
-	position: absolute;
-	left: 0;
-	top: 6px;
-	color: #29a587;
-}
+// .pricing-item .list ul li i {
+// 	position: absolute;
+// 	left: 0;
+// 	top: 6px;
+// 	color: #29a587;
+// }
 
-.pricing-item .list ul li em {
-	color: #b3b3b3;
-	font-style: normal;
-	text-decoration: line-through;
-}
+// .pricing-item .list ul li em {
+// 	color: #b3b3b3;
+// 	font-style: normal;
+// 	text-decoration: line-through;
+// }
 
-.pricing-item .btn {
-	margin-top: 30px;
-	width: 100%;
-	z-index: 2;
-}
+// .pricing-item .btn {
+// 	margin-top: 30px;
+// 	width: 100%;
+// 	z-index: 2;
+// }
 
 
 /**
