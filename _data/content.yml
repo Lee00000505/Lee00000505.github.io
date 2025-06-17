@@ -264,7 +264,7 @@ contacts:
 
     - label: "Email"
       icon: "far fa-envelope"
-      text: "gameplayer050205@gmai.com"
+      text: "gameplayer050205@gmail.com"
 
 ### Portfolio [ portfolio ]
 #items generates from dir /_works/*
