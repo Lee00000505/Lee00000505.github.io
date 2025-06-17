@@ -256,7 +256,7 @@ contacts:
   list:
     - label: "Address"
       icon: "far fa-map"
-      text: "North Tower, Toronto, Canada"
+      text: "South Korea"
 
     - label: "Freelance"
       icon: "far fa-user"
@@ -264,11 +264,7 @@ contacts:
 
     - label: "Email"
       icon: "far fa-envelope"
-      text: "zoe.miller@mydomain.com"
-
-    - label: "Phone"
-      icon: "far fa-address-book"
-      text: "+1 900 - 900 - 9000"
+      text: "gameplayer050205@gmai.com"
 
 ### Portfolio [ portfolio ]
 #items generates from dir /_works/*
