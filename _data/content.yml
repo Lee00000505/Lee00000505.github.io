@@ -98,46 +98,46 @@ skills:
       #    value: "80" #0-100 progress in %
 
 ### Resume [ resume ]
-resume:
-  title: "Resume"
-  subtitle: "my <b>Story</b>"
-  bg_title: "History"
+# resume:
+#   title: "Resume"
+#   subtitle: "my <b>Story</b>"
+#   bg_title: "History"
 
-  education:
-    title: "Education"
-    items:
-      - name: "CoderHouse Courses"
-        subname: "Backend Programming"
-        period: "2014 - 2016"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#   education:
+#     title: "Education"
+#     items:
+#       - name: "CoderHouse Courses"
+#         subname: "Backend Programming"
+#         period: "2014 - 2016"
+#         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-      - name: "Lviv National Academy of Arts"
-        subname: "Faculty of Design"
-        period: "2012 - 2014"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#       - name: "Lviv National Academy of Arts"
+#         subname: "Faculty of Design"
+#         period: "2012 - 2014"
+#         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-      - name: "IT Future"
-        subname: "High School"
-        period: "2010 - 2012"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#       - name: "IT Future"
+#         subname: "High School"
+#         period: "2010 - 2012"
+#         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-  experience:
-    title: "Experience"
-    items:
-      - name: "UI Head &amp; Manager"
-        subname: "Soft Tech Inc."
-        period: "2020 - <b>Present</b>"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#   experience:
+#     title: "Experience"
+#     items:
+#       - name: "UI Head &amp; Manager"
+#         subname: "Soft Tech Inc."
+#         period: "2020 - <b>Present</b>"
+#         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-      - name: "UI / UX Specialist"
-        subname: "Kana Design Studio"
-        period: "2018 - 2020"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#       - name: "UI / UX Specialist"
+#         subname: "Kana Design Studio"
+#         period: "2018 - 2020"
+#         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-      - name: "Plugins Developer"
-        subname: "Fiverr.com"
-        period: "2016 - 2018"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#       - name: "Plugins Developer"
+#         subname: "Fiverr.com"
+#         period: "2016 - 2018"
+#         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 
 ### Testimonials [ testimonials ]
