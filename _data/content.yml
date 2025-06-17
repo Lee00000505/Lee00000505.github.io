@@ -142,8 +142,8 @@ skills:
 
 ### Testimonials [ testimonials ]
 testimonials:
-  title: "Testimonials"
-  subtitle: "what <b>Customers Say</b>"
+  title: "team"
+  subtitle: "team member"
   bg_title: "Reviews"
 
   items:
@@ -270,7 +270,7 @@ contacts:
 #items generates from dir /_works/*
 portfolio:
   title: "team"
-  subtitle: "my <b>Cases</b>"
+  subtitle: "my Portfolio"
   bg_title: "Portfolio"
   button:
     link: "works/"
