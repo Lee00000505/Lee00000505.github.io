@@ -141,36 +141,36 @@ skills:
 
 
 ### Testimonials [ testimonials ]
-testimonials:
-  title: "team"
-  subtitle: "team member"
-  bg_title: "Reviews"
+# testimonials:
+#   title: "team"
+#   subtitle: "team member"
+#   bg_title: "Reviews"
 
-  items:
-    - image: "assets/img/testimonials/testi4-2.jpg"
-      name: "Barbara Wilson"
-      role: "CEO Company"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#   items:
+#     - image: "assets/img/testimonials/testi4-2.jpg"
+#       name: "Barbara Wilson"
+#       role: "CEO Company"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-1.jpg"
-      name: "Charlie Smith"
-      role: "Designer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#     - image: "assets/img/testimonials/testi4-1.jpg"
+#       name: "Charlie Smith"
+#       role: "Designer"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-4.jpg"
-      name: "Roy Wang"
-      role: "Manager GYM"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#     - image: "assets/img/testimonials/testi4-4.jpg"
+#       name: "Roy Wang"
+#       role: "Manager GYM"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-3.jpg"
-      name: "Jennifer Smith"
-      role: "CEO &amp; Founder"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#     - image: "assets/img/testimonials/testi4-3.jpg"
+#       name: "Jennifer Smith"
+#       role: "CEO &amp; Founder"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-5.jpg"
-      name: "Paul Freeman"
-      role: "Photographer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#     - image: "assets/img/testimonials/testi4-5.jpg"
+#       name: "Paul Freeman"
+#       role: "Photographer"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 
 ### Pricing [ pricing ]
