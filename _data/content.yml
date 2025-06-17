@@ -269,7 +269,7 @@ contacts:
 ### Portfolio [ portfolio ]
 #items generates from dir /_works/*
 portfolio:
-  title: "team"
+  title: "Portfolio"
   subtitle: "my Portfolio"
   bg_title: "Portfolio"
   button:
