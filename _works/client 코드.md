@@ -1,11 +1,11 @@
 ---
 # preview details
 layout: works-single
-title: Explore
+title: client 코드
 category: Development
 category_slug: development
 image: assets/img/works/work7.jpg
-short_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+short_description: client.py 코드 이미지
 
 # full details
 live_preview: https://bslthemes.com
