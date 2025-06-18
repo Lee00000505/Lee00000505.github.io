@@ -59,13 +59,13 @@ response = requests.post("http://127.0.0.1:5000/predict", json={"enc_input": enc
 try:
     response_json = response.json()
     
-    if "enc_result" in response_json:
-        result_b64 = response_json["enc_result"]  
-        result_bytes = base64.b64decode(result_b64)  
-        enc_result = decrypt_vector(context, result_bytes) 
-        print("복호화된 결과:", enc_result.decrypt())  
-    else:
-        print("서버 응답 오류:", response_json.get("error", "알 수 없는 오류"))
+ if "enc_result" in response_json:
+  result_b64 = response_json["enc_result"]  
+  result_bytes = base64.b64decode(result_b64)  
+  enc_result = decrypt_vector(context, result_bytes) 
+    print("복호화된 결과:", enc_result.decrypt())  
+  else:
+   print("서버 응답 오류:", response_json.get("error", "알 수 없는 오류"))
 
 except Exception as e:
     print("❗ 예외 발생:", e)
