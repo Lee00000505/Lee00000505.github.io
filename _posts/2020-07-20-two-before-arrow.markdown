@@ -1,32 +1,21 @@
 ---
 layout: post
-title:  Two Before Arrow Not Relied
-date:   2020-07-20
-category: Design
-image: assets/img/blog/blog8.jpg
-author: Ryan Adlard
-tags: code
+title:  "lee의 기술 블로그"
+date:   2025-05-15
+category: development
+image: assets/img/t.webp
+author: Lee
+tags: lee
+comments: true
 ---
 
-So striking at of to welcomed resolved. Northward by described up household therefore attention. Excellence decisively nay man yet impression for contrasted remarkably.
+lee의 기술 블로그에 오신걸 환영합니다.
 
-Forfeited you engrossed but gay sometimes explained. Another as studied it to evident. Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining determine few her two cordially admitting old.
+2025.05.15
 
 
-> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque suscipit.
+프로젝트 수업 중 'AI 동형 암호화' 주제로 하는 팀 프로젝트가 있다.
 
-Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on. Increasing [link](#) sufficient everything men him admiration unpleasing .
+나의 업무는 암호화 환경 설정 후, 데이터를 암호화 한 상태로 만든 것이 주 역할이다.
 
-* Greatest properly off ham exercise all.
-* Unsatiable invitation its possession nor off.
-* All difficulty estimating unreserved increasing the solicitude.
-
-Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of.
-
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Ryan')
-#=> prints 'Hi, Ryan' to STDOUT.
-```
+다음 블로그에선 암호화 context를 생성하여 평문을 암호화 하는 과정을 간단하게 소개 후, 분석하는 글을 작성할 것이다.
