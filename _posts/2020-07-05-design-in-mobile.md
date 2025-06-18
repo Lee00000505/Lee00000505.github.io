@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Design in Mobile Application
-date:   2020-07-05
+date:   2025-05-16
 category: Mobile
 image: assets/img/blog/blog-2.jpg
 author: Ryan Adlard
