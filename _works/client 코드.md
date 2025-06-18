@@ -4,7 +4,7 @@ layout: works-single
 title: client 코드
 category: Development
 category_slug: development
-image: assets/img/works/work7.jpg
+image: assets/img/works/client.png
 short_description: client.py 코드 이미지
 
 # full details
