@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "lee의 기술 블로그"
+title:  "Client"
 date:   2025-05-15
 category: development
 image: assets/img/t.webp
