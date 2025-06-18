@@ -5,8 +5,8 @@
 
 ### Hero [ hero-image ]
 hero:
-  image: "assets/img/lee.webp"
-  image_alt: "lee"
+  image: "assets/img/Lee.jpg"
+  image_alt: "Lee"
   title: "<b>l</b> ee"
   before_title: "환영합니다. <b>제 이름은</b>"
   after_title: "I am <strong>Web Developer</strong>"
