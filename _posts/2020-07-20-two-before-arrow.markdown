@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Client"
+title:  "Client.py"
 date:   2025-05-15
 category: development
 image: assets/img/t.webp
