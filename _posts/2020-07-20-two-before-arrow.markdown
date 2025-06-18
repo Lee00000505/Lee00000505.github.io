@@ -114,35 +114,35 @@ response = requests.post("http://127.0.0.1:5000/predict", json={"enc_input": enc
 -> 로컬에 있는 Flask 서버(127.0.0.1:5000)의 /predict 엔드포인트에 "enc_input": enc_b64 라는 데이터를 JSON 형식으로 보내는 POST 요청을 보낸다. 그 응답을 response 변수에 저장한다.
 
 try:
-    response_json = response.json()
-    -> 서버 응답을 JSON 형식으로 한다.
+ response_json = response.json()
+ -> 서버 응답을 JSON 형식으로 한다.
     
-    if "enc_result" in response_json:
-    -> 응답에 "enc_result"  라는 키가 있는지 확인 후 결과가 제대로 왔는지 확인한다.
+if "enc_result" in response_json:
+-> 응답에 "enc_result"  라는 키가 있는지 확인 후 결과가 제대로 왔는지 확인한다.
 
-        result_b64 = response_json["enc_result"]  
-        -> 암호화된 결과(base64 인코딩된 문자열)를 꺼낸다.
+    result_b64 = response_json["enc_result"]  
+    -> 암호화된 결과(base64 인코딩된 문자열)를 꺼낸다.
 
-        result_bytes = base64.b64decode(result_b64)
-        -> base64 문자열을 바이트 형태로 디코딩한다.
+    result_bytes = base64.b64decode(result_b64)
+    -> base64 문자열을 바이트 형태로 디코딩한다.
 
-        enc_result = decrypt_vector(context, result_bytes) 
-        -> 바이트를 다시 암호문 객체로 복원하고 복호화할 준비를 한다.
-        decrypt_vector()는 내부적으로 ts.ckks_vector_from(context, result_bytes) 호출한다.
+    enc_result = decrypt_vector(context, result_bytes) 
+    -> 바이트를 다시 암호문 객체로 복원하고 복호화할 준비를 한다.
+    decrypt_vector()는 내부적으로 ts.ckks_vector_from(context, result_bytes) 호출한다.
 
-        print("복호화된 결과:", enc_result.decrypt())
-        -> 출력  
-    else:
-        print("서버 응답 오류:", response_json.get("error", "알 수 없는 오류"))
-        -> 서버가 "enc_result" 안 했을 때, 오류 값 출력한다.
+    print("복호화된 결과:", enc_result.decrypt())
+    -> 출력  
+else:
+ print("서버 응답 오류:", response_json.get("error", "알 수 없는 오류"))
+ -> 서버가 "enc_result" 안 했을 때, 오류 값 출력한다.
 
 except Exception as e:
 -> try 블록에서 오류가 생기면 이 블록이 실행된다. 
    e는 발생한 에러 객체를 담고 있다.
 
-    print("❗ 예외 발생:", e)
-    print("📨 서버 응답 원본:", response.text)
-    -> 출력
+ print("❗ 예외 발생:", e)
+ print("📨 서버 응답 원본:", response.text)
+ -> 출력
 
 
 .
