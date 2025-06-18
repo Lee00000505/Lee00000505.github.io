@@ -24,7 +24,6 @@ handler.py 를 생성하여 평문을 암호화 하는 과정을 간단하게 �
 .
 .
 .
-.
 
 
 client.py
@@ -60,12 +59,12 @@ try:
     response_json = response.json()
     
  if "enc_result" in response_json:
-  result_b64 = response_json["enc_result"]  
-  result_bytes = base64.b64decode(result_b64)  
-  enc_result = decrypt_vector(context, result_bytes) 
-    print("복호화된 결과:", enc_result.decrypt())  
-  else:
-   print("서버 응답 오류:", response_json.get("error", "알 수 없는 오류"))
+result_b64 = response_json["enc_result"]  
+result_bytes = base64.b64decode(result_b64)  
+enc_result = decrypt_vector(context, result_bytes) 
+print("복호화된 결과:", enc_result.decrypt())  
+else:
+print("서버 응답 오류:", response_json.get("error", "알 수 없는 오류"))
 
 except Exception as e:
     print("❗ 예외 발생:", e)
@@ -120,29 +119,29 @@ try:
 if "enc_result" in response_json:
 -> 응답에 "enc_result"  라는 키가 있는지 확인 후 결과가 제대로 왔는지 확인한다.
 
-    result_b64 = response_json["enc_result"]  
-    -> 암호화된 결과(base64 인코딩된 문자열)를 꺼낸다.
+ result_b64 = response_json["enc_result"]  
+-> 암호화된 결과(base64 인코딩된 문자열)를 꺼낸다.
 
-    result_bytes = base64.b64decode(result_b64)
-    -> base64 문자열을 바이트 형태로 디코딩한다.
+ result_bytes = base64.b64decode(result_b64)
+-> base64 문자열을 바이트 형태로 디코딩한다.
 
-    enc_result = decrypt_vector(context, result_bytes) 
-    -> 바이트를 다시 암호문 객체로 복원하고 복호화할 준비를 한다.
-    decrypt_vector()는 내부적으로 ts.ckks_vector_from(context, result_bytes) 호출한다.
+enc_result = decrypt_vector(context, result_bytes) 
+-> 바이트를 다시 암호문 객체로 복원하고 복호화할 준비를 한다.
+decrypt_vector()는 내부적으로 ts.ckks_vector_from(context, result_bytes) 호출한다.
 
-    print("복호화된 결과:", enc_result.decrypt())
+print("복호화된 결과:", enc_result.decrypt())
     -> 출력  
 else:
- print("서버 응답 오류:", response_json.get("error", "알 수 없는 오류"))
+print("서버 응답 오류:", response_json.get("error", "알 수 없는 오류"))
  -> 서버가 "enc_result" 안 했을 때, 오류 값 출력한다.
 
 except Exception as e:
 -> try 블록에서 오류가 생기면 이 블록이 실행된다. 
    e는 발생한 에러 객체를 담고 있다.
 
- print("❗ 예외 발생:", e)
- print("📨 서버 응답 원본:", response.text)
- -> 출력
+print("❗ 예외 발생:", e)
+print("📨 서버 응답 원본:", response.text)
+-> 출력
 
 
 .
